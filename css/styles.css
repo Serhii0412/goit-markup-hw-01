@@ -1,0 +1,199 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color:#212121 ;
+  --accent-color: #2196f3;
+  --white-color: #FFFFFF;
+  --background-color: #2F303A;
+  --button-hover-color: #188ce8;
+  --btn-portfolio: #F5F4FA;
+  --footer-link: rgba(255, 255, 255, 0.6);
+  --filter-background: #EEEEEE
+  
+}
+body {
+  color:var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/*Exceptions*/
+.list{
+  text-decoration: none;
+}
+.link,
+.pun{
+  cursor: pointer;
+	text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.section-title,
+.section-subtitle,
+.section-examples,
+.section-testimotional,
+.section-team,
+.project-title{
+  color: var(--title-text-color);
+} 
+
+/*Logo*/
+.logo{
+  color: var(--title-text-color);
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer{
+  color: var(--white-color);
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-title,
+.logo-footer>span{
+ color: var(--accent-color);
+}
+
+.pun{
+  color: var(--title-text-color);
+}
+/*site-info-nav*/
+.site-nav,
+.info-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em
+}
+.link:hover,
+.link:focus,
+.pun:hover,
+.pun:focus{
+  color: var(--accent-color)
+}
+.current{
+  color: var(--accent-color);
+}
+.mail-link,
+.contakt-link{
+  color: var(--primary-text-color);
+  text-decoration: none
+}
+/*Hero*/
+.page-hero{
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*Btn*/
+.btn-primary{
+ font-family: roboto, sans-serif;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.87;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-decoration: none
+}
+.btn-primary,
+.btn-primary-prtf{
+  color:var(--white-color);
+  background-color:var(--accent-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-secondary{
+  color: var(--title-text-color);
+  background-color: var(--btn-portfolio);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: var(--button-hover-color);
+}
+.btn-secondary:hover,
+.btn-secondary:focus{
+  color: var(--white-color);
+  background-color: var(--accent-color)
+}
+/*Benefits*/
+.title-advantages{
+  line-height: 1.71; 
+}
+.section-subtitle{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase
+}
+
+.section-examples,
+.section-testimotional{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/*Team*/
+.workers{
+  background-color: var(--btn-portfolio);
+}
+.section-team
+{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team{
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.project-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em
+}
+.project-description{
+  font-size: 16px;
+line-height: 1.87
+}
+/*Footer*/
+.footer{
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+.footer-adress{
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-mail,
+.footer-num{
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-num:hover,
+.footer-num:focus{
+  color: var(--white-color);
+}
